@@ -57,6 +57,7 @@ class Ui_Dialog(object):
     def on_click(self):
         textboxValue = a = self.commandbox.text()
         a=a.lower()
+        #typed commands
         if a=="camera":
             subprocess.call("cheese")
         elif a=="edge":
